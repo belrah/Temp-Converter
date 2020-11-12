@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTemp-Converter</title>
+    <!-- <link rel="stylesheet" href="materialize/css/style.css"> -->
+    <link rel="stylesheet" href="materialize/css/font/material-icons.css">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="materialize/css/temp.css">
+    <!-------font awesome link--->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-------google font link--->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <!-------animate.css link--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <h2 class="center overpic animate__animated animate__backInDown ">Convert Temperature Here</h2>
+    <div class="container">
+        <label for="">Convert to Celcius</label>
+        <input type="number" placeholder="Enter Number farenheit" id="finput" class="white " oninput="farToCel(this.value)">
+        <h4 id="cvalue"></h4>
+        <label for="">Convert to Farenheit</label>
+        <input type="number" placeholder="Enter Number celcius" id="cinput" class="white textarea " oninput="celToFar(this.value)">
+        <h4 id="fvalue"></h4>
+    </div>
+    <footer class="center">
+        <div class="animate__animated animate__fadeInLeft animate__delay-1s socials text-center">
+            <a class="social-a " href="https://github.com/belrah">
+                <i class="fab fa-github-square size"></i>
+            </a>
+            <a class="social-a" href="https://twitter.com/iambelrah">
+                <i class="fab fa-twitter-square size"></i>
+            </a>
+            <a class="social-a" href="https://medium.com/@belrah">
+                <i class="fab fa-medium-m size"></i>
+            </a>
+            <a class="social-a" href="https://github.com/belrah"><i class="fab fa-linkedin size white-text"></i>
+            </a>
+        </div>
+        <small class="footer-small mt-auto">
+            <h5 class="animate__animated animate__fadeInLeft animate__delay-3s 
+   ">Copyright &copy; Kalu Mercy for <span style="color:blue; font-weight:bolder"> Pearls Africa</span></h5>
+        </small>
+    </footer>
+    <script src="materialize/js/jquery.js "></script>
+    <script src="materialize/js/materialize.js "></script>
+    <script src="materialize/js/materialize.min.js "></script>
+    <script src="materialize/js/temp.js"></script>
+</body>
+
+</html>
