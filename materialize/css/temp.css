@@ -16,7 +16,8 @@ body {
     align-items: center;
     color: aliceblue;
     height: 100vh;
-    width: 100%
+    width: 100%;
+    background-color: rgba(94, 94, 243, 0.877);
 }
 
 label {
